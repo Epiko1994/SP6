@@ -6,6 +6,8 @@ import App2 from './App2';
 import App3 from './App3';
 import App4 from './App4';
 import App5 from './App5';
+import App6 from './App6';
+import App7 from './App7';
 import ListApp1 from './ListApp1';
 import ListApp2 from './ListApp2';
 
@@ -19,6 +21,8 @@ const DontUseMeForReal = () => {
        <a href="/"  className="x" id="app3">Counter and other</a> &nbsp;
        <a href="/"  className="x" id="app4">Time</a> &nbsp;
        <a href="/"  className="x" id="app5">Jokes</a> &nbsp;
+       <a href="/"  className="x" id="app6">Name Form</a> &nbsp;
+       <a href="/"  className="x" id="app7">Reservation Form</a> &nbsp;
        <a href="/"  className="x" id="ListApp1">ListApp1</a> &nbsp;
        <a href="/"  className="x" id="ListApp2">ListApp2</a> &nbsp;
        {/* Add as many as you have exercises, but remember className="x" */}
@@ -39,6 +43,8 @@ function handleSelect(event) {
       case "app3": app = <App3 />; break;
       case "app4": app = <App4 />; break;
       case "app5": app = <App5 />; break;
+      case "app6": app = <App6 />; break;
+      case "app7": app = <App7 />; break;
       case "ListApp1": app = <ListApp1 />; break;
       case "ListApp2": app = <ListApp2 />; break;
   }
